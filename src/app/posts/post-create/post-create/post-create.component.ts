@@ -13,7 +13,7 @@ export class PostCreateComponent implements OnInit {
 
 
 
-  public enteredPost: Post = {title: '' , content: ''};
+  // public enteredPost: Post = {title: '' , content: ''};
 
   constructor(public postsService: PostsService) {}
 
